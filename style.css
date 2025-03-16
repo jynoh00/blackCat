@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: bold;
+    color: rgb(50, 50, 50);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main_form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.icon_form{
+    text-align: center;
+}
+
+.note_form{
+    width: 300px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.title_form{
+    background-color: #f1f1f1;
+    text-align: center;
+    /*border: 2px solid rgba(90, 90, 90,0.3);*/
+    border-radius: 5px;
+}
+
+.control_form{
+    margin-top: 15px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#logo_cat{
+    width:100px;
+}
+
+.bt_style{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.bt_style:hover{
+    animation-name: change_bt;
+}
+
+@keyframes change_bt{
+    from{
+
+    }
+    to{
+        background-color: black;
+        color: white;
+    }
+}
+
+#create_sub{
+    font-size: 25px;
+}
+
+#update_sub{
+    font-size: 25px;
+}
+
+#delete_sub{
+    font-size: 25px;
+}
+
+#create_title{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(90, 90, 90);
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+    text-align: center;
+}
+
+#update_title{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(90, 90, 90);
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+    text-align: center;
+}
+
+#create_des{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(90, 90, 90);
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+}
+
+#update_des{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(90, 90, 90);
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+}
+
+.inner_des_form{
+    margin-top: 10px;
+    border: 2px solid rgb(90,90,90);
+    border-radius: 5px;
+    height: 300px;
+}
+
+.note_title:hover{
+    background-color: #f1f1f1;
+}
